@@ -104,3 +104,9 @@ iframe:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+a figure {
+   float: left;
+   width: 50%;
+   justify-content: right;
+}
