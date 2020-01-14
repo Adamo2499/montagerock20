@@ -1,7 +1,11 @@
-/*Document sections*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Document sections */
 body {
-    background-image: url(../images/binding_dark.png);
-    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url(../images/binding_dark.png); /* Background pattern from Toptal Subtle Patterns */
     cursor: url(../images/cursors/default.cur), default;
     color: white;
 }
@@ -80,6 +84,7 @@ iframe:hover {
     overflow: hidden;
     width: 22.5%;
 }
+
 .dropdown-content a {
     float: none;
     color: black;
@@ -88,10 +93,12 @@ iframe:hover {
     display: block;
     text-align: left;
     width: 80%;
-  }
-  .dropdown-content a:hover {
+}
+
+.dropdown-content a:hover {
     background-color: #ddd;
-  }
-  .dropdown:hover .dropdown-content {
-  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
