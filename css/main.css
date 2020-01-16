@@ -106,7 +106,7 @@ iframe:hover {
 }
 
 a figure {
-   float: left;
-   width: 50%;
+   float: right;
    justify-content: right;
+   width: 50%;
 }
